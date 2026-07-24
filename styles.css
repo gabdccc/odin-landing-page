@@ -1,6 +1,5 @@
 * {
     font-family: 'Roboto', sans-serif;
-    background-color: #1F2937;
     padding: 0;
     margin: 0;
 }
@@ -11,13 +10,14 @@ a {
 }
 
 body {
-    padding: 2rem 10rem;
+    background-color: #1F2937;
     display: flex;
     flex-flow: column wrap;
     gap: 4rem;
 }
 
 .header {
+    margin: 2rem 10rem;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
@@ -40,6 +40,10 @@ body {
 }
 
 .content-first {
+    margin: 2rem 10rem;
+}
+
+.container {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
@@ -79,4 +83,108 @@ body {
 
 .large-image img{
     width: 500px;
+    height: 300px;
+    background-color: rgb(59, 59, 59);
+}
+
+.content-second {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center; 
+    justify-content: center;
+    text-align: center;
+}
+
+.content-second .container {
+    margin: 2rem 10rem;
+    display: flex;
+    justify-content: center;   
+    align-items: center;
+}
+.head {
+    padding: 2rem 0;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+em {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+}
+
+.info {
+    display: flex;
+}
+
+.info p {
+    width: 150px;
+    color: #1f2937;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.info .images {
+    padding: 2rem;
+    gap: 0.5rem;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.images img {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(59, 59, 59);
+}
+
+.quote {
+    display: flex;
+    flex-flow: column wrap;
+    margin: 12rem 1rem;
+    width: 850px;
+    align-items: center;
+    justify-content: center;
+}
+.quote .owner {
+    margin-top: 1rem;
+    align-self: flex-end;
+    text-align: end;
+    font-size: 20px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.notif p {
+    font-size: 18px;
+    color: #f9faf8;
+    font-weight: 300;
+}
+
+.notif p:first-child {
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.notif {
+    margin: 4rem;
+    width: 100%;
+    padding: 2rem 8rem;
+    border-radius: 12px;
+    display: flex;
+    background-color: #3882f6;
+    align-items: center;
+    justify-content: space-between;
+    text-align: start;
+}
+
+.notif-button {
+    border: 2px solid #f9faf8;
+    border-radius: 12px;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 12px 32px;
 }

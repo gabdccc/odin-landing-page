@@ -191,7 +191,7 @@ em {
 }
 
 .foot {
-    flex-wrap: wrap;
+    flex-flow: row wrap;
     display: flex;
     height: 100px;
     justify-content: center;

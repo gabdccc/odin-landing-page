@@ -41,8 +41,18 @@ body {
 }
 
 .navbar-right div {
+    user-select: none;
+    cursor: pointer;
     font-size: 18px;
     color: #e5e7eb;
+    padding: 12px 32px;
+    border-radius: 12px;
+    border: 2px solid #e5e7eb;
+
+    transition: transform 0.2s cubic-bezier(0.68, -0.6, 0.32, 1.6) 0s;
+    &:hover {
+        transform: scale(1.05);
+    }
 }
 
 .content-first {

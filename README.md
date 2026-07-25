@@ -8,3 +8,6 @@ Developed a landing page using HTML and CSS as part of The Odin Project Foundati
 
 - Random Photos 
     https://picsum.photos/
+
+- Logo
+    https://www.svgrepo.com/

@@ -107,8 +107,10 @@ body {
 .content-second .container {
     margin: 2rem 10rem;
     display: flex;
+    flex-flow: column wrap;
     justify-content: center;   
     align-items: center;
+    align-content: center;
 }
 .head {
     padding: 2rem 0;
